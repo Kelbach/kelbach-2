@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
-import NavTabs from './components/NavTabs';
-import About from './components/About';
-import Gallery from './components/Gallery';
-import ContactMe from './components/ContactMe';
-import Resume from './components/Resume';
-import './style.css';
+import NavTabs from '../../components/Portfolio/NavTabs';
+import About from '../../components/Portfolio/About';
+import Gallery from '../../components/Portfolio/Gallery';
+import ContactMe from '../../components/Portfolio/ContactMe';
+import Resume from '../../components/Portfolio/Resume';
+// import './style.css';
 
-function App() {
+function Portfolio() {
   // Using useState, set the default value for currentPage to 'Home'
   const [currentPage, handlePageChange] = useState('About');
 
@@ -54,4 +54,4 @@ function App() {
   );
 }  
 
-export default App;
+export default Portfolio;

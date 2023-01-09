@@ -1,6 +1,6 @@
 import React, {useEffect,useState} from 'react';
 import {useSelector} from 'react-redux';
-import windDirection from '../../utils/windDirection';
+import windDirection from '../../../utils/weather/windDirection';
 import {ForecastCard} from '../ForecastCard/ForecastCard';
 
 export const OneDayCard = () => {

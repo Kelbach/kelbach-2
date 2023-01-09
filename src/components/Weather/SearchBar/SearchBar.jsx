@@ -1,8 +1,8 @@
 import React, {useState} from 'react';
-import api from '../../utils/api';
+import api from '../../../utils/weather/api';
 import { useDispatch } from 'react-redux';
-import { changeWeather } from '../../reducers/weatherReducer';
-import { changeForecast } from '../../reducers/forecastReducer';
+import { changeWeather } from '../../../reducers/weather/weatherReducer';
+import { changeForecast } from '../../../reducers/weather/forecastReducer';
 
 
 export const SearchBar = () => {

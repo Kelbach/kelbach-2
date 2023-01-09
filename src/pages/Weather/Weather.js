@@ -1,12 +1,11 @@
-import './App.css';
 import React from 'react';
-import { SearchBar } from './components/SearchBar/SearchBar';
+import { SearchBar } from '../../components/Weather/SearchBar/SearchBar';
 // import { OneDayTable } from './components/Table/oneDayTable';
 // import { ForecastTable } from './components/Table/forecastTable';
-import { OneDayCard } from './components/OneDayCard/OneDayCard';
+import { OneDayCard } from '../../components/Weather/OneDayCard/OneDayCard';
 
 
-function App() {
+function Weather() {
   return (
     <>
       <header className="row">
@@ -22,4 +21,4 @@ function App() {
   );
 }
 
-export default App;
+export default Weather;
